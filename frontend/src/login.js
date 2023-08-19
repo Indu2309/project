@@ -13,7 +13,7 @@ function Srkr()
     {
         try
         {
-            const res=await axios.get("http://localhost:8000/login/"+name+"/"+password)
+            const res=await axios.get("https://server-0k4e.onrender.com/login/"+name+"/"+password)
             {
                 if(res.data)
                 {
