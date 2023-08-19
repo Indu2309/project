@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(15, 9, 9);
 }
 
 .App-link {
@@ -35,4 +35,88 @@
   to {
     transform: rotate(360deg);
   }
+}
+.button{
+  margin-left: 1150px;
+}
+ .div1{
+  /* background-color: white; 
+  height: 100px; */
+  background-image: url('C:\Users\Admin\OneDrive\Desktop\git\project\frontend\public\wallpaper.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+}
+.div3{
+  background-color: rgb(197, 130, 157);
+  color: #150f0f;
+  border-radius: 5px;
+  top: 200px;
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  height: 270px;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.div2{
+  /* background-color: rgb(20, 220, 153);
+   height: 200px;  */
+  text-align: center;
+  color: #61dafb;
+}
+.div4{
+  background-image:url('C:\Users\Admin\OneDrive\Desktop\git\project\frontend\public\nature.jpeg') ;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: cover;
+} 
+.text{
+  text-align: center;
+}
+.I{
+  text-align: center; 
+}
+.div5{
+  background-color: rgb(147, 119, 147);
+  color: #150f0f;
+  border-radius: 5px;
+  top: 200px;
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  height: 130px;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.div6{
+  background-color: rgb(133, 123, 241);
+  color: #150f0f;
+  border-radius: 5px;
+  top: 200px;
+  display: block;
+  margin: 20px auto;
+  width: 25%;
+  height: 130px;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
+}
+.ammu{
+  
+  background-color: rgb(35, 212, 212);
+  color: #150f0f;
+  border-radius: 5px;
+  top: 200px;
+  display: block;
+  margin: 20px auto;
+  width: 75%;
+  height: 130px;
+  border: none;
+  padding: 15px;
+  text-transform: capitalize;
 }
