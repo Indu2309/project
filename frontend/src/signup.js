@@ -9,14 +9,14 @@ function Signin()
         
             try{
                 
-                const res1=await axios.post("http://localhost:8000/signup1/"+name+"/"+mail)
+                const res1=await axios.post("https://server-0k4e.onrender.com/signup1/"+name+"/"+mail)
                 if (res1.data)
                 {
                     alert("already used")
                 }
                 else{
                 if (cpassword===password){
-                const res=await axios.post("http://localhost:8000/signup/"+name+"/"+mail+"/"+pnum+"/"+password+"/"+cpassword)
+                const res=await axios.post("https://server-0k4e.onrender.com/signup/"+name+"/"+mail+"/"+pnum+"/"+password+"/"+cpassword)
                     if (res.data)
                     {
                         alert("saved");
