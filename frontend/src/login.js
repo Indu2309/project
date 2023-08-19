@@ -14,7 +14,7 @@ function Srkr()
         try
         {
             const res=await axios.get("https://server-0k4e.onrender.com/login/"+name+"/"+password)
-            {
+            
                 if(res.data)
                 {
 
@@ -26,7 +26,7 @@ function Srkr()
                     nav('/signup')
                     
                 }
-            }
+            
 
         }
         catch(e)
