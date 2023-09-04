@@ -19,10 +19,10 @@ export  const Problem = () => {
                 (
                     <>
                       <div className="ammu">
-                      <div className="a1">
+                     
                     {data.About}<br/>
                     {data.Matter}
-                    </div></div>
+                    </div>
                     </>
                 ))
                  }
